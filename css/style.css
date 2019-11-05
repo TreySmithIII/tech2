@@ -30,6 +30,9 @@ img {
 }
 
 /* --- general style ----*/
+.profile {
+    max-width: 350px;
+}
 .clearfix::after {
     content: " ";
     display: table;
