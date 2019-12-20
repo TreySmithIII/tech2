@@ -1,161 +1,241 @@
 *{
 box-sizing: border-box;
+}
 
-}
-p {
-	font-size: .95em;
-    margin-bottom: 1.8em;
-    padding-left:1em;
-        padding-right:1em;
-       
-            margin-top: 2em;
-}
-#contact {
+body{
     text-align: center;
-    
+    font-family: 'Open Sans', sans-serif;    
 }
 
-footer {
-text-align: center;
-
-}
-body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
-	color: #3a3a3a;
-}
-a {
-	text-decoration: none;
+a{
+ text-decoration: none;
 }
 
-img {
-	max-width: 100%;
-    width:350px;
+li {
+font-weight: 800;
+border: solid 11px white;
+margin: 7px;
+background-color: white;
+
 }
-.containers {
-    width:100%;
-margin:auto 0;
-     text-align:center;
+header{
+background-color: #f5eded;
+padding-bottom: 2em;
+padding-top: 1em;
+
 }
-/* --- general style ----*/
-.profile {
-    max-width: 350px;
+
+strong {
+    color: dimgray;
 }
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
+.header-p ,
+.contact p{
+    font-weight:200;
+    margin-top: 2em;
+    font-size: 22px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .name {
-	font-size: 1.25em;
-    margin:0px;
-    
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.portfolio-header {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
-.name a,
-.main-nav a {
-	text-align: center;
-    display:block;
-    padding: 10px 15px;
+.contact-header,
+.portfolio-header{
+text-transform: uppercase;
+font-size: 2em;
+}
+.main-nav {
+    margin-bottom: 3em;
 }
 
-.main-nav a {
-	font-size: .95em;
-	color: #3acec2;
-	text-transform: uppercase;
+
+.main-footer {
+            border-top: solid gainsboro 1px;
+            margin-top: 5em;
 }
-
-.main-nav a:hover {
-	color: #093a58;
-}
-
-#portfolio  {
-    width:100%;
-    text-align: center;
-    margin-top:1em;
-    margin-bottom:1em;
-    
-    margin:auto 0;
-    padding-left:1em;
-    padding-right:1em;
-   
-        margin-top: 2em;
-}
-#main-header{
-    text-align: center;
-    width : 100%;
-    padding-bottom:10em;
-    background-color: #d9e4ea;
-    } 
-    .portfolio-header {
-        text-align:center;
-    }
-@media (min-width: 768px) {
-
-
-.name {
-    padding-top: 3em ;
+.bottom {
+    margin-top: 9em;
+    background-color: #f5eded;
+    padding-top: 3em;
     padding-bottom: 1em;
 }
-.main-nav li {
-    display: inline-block;
-}
-.profile {
-float: right;
-    padding-left:1em;
-    padding-right:1em;
-   
-        margin-top: 2em;
-        width:50%;
-        
-}
-#main-header  p{
+.clearfix::after {
+    content:"";
+        display:table;
+        clear:both;
+    }    
+    .main {
+        padding-left: 1em;
+    padding-right: 1em;
+    }  
+    .student {
+float: left;
+margin-left: 1em;
+    }
+    .back {
+        float:right;
+        margin-right: 1em;
+    }
 
-width:50%;
-font-size:18px;
-}
-#portfolio {
-    width:100%;
-    text-align: center;
-    margin-top:1em;
-    margin-bottom:1em;
-    
-    margin:auto 0;
-         
-    
+.main img{
+ width: 340px;
+
 }
 
+.col h3{
+text-transform: capitalize;
+font-weight: 600;
+font-size: 2em;
 
-.portfolio-header {
+}
+
+.col p {
+font-size: 1.625em;
+line-height: 2;
+font-weight: 300;
 padding-bottom: 1em;
-text-align: center;
 }
-.marketing-page {
-float: left;
-width: 50%;
+.main-nav a{
+    display: block;
+    text-transform: uppercase;
 }
-.search-page {
-float: left;
-width:50%;
+.main-footer p {
+    font-weight: 700;
+    padding-top: 1em;
+}
+.nav-footer{
+    display: none;
+}
+.name-footer{
+    display: none;
+}
+@media (min-width:768px) {
 
+    .main {
+        padding-left: 2em;
+    padding-right: 2em;
+    }  
+.main-nav li,
+.main-nav a ,
+.main-nav{
+    display: inline;
+    border: none;
+    background: none;
+    margin-right: 1em;
 }
-.travel-app {
+    .name {
+        margin-bottom: 1em;
+    }
+    .profile-pic{
+        float: right;
+        margin-top: 3em;
+        padding-right: 1em;
+    width: 50%;
+    }
+    .header-p {
+        text-align: left;
+        width: 50%;
+    }
+    .main-header{
+        padding-bottom: 5em;
+    }
+    .marketing {
+        float:left;
+        width: 50%;
+    }
+    .search{
+        float: left;
+       width: 50%;
+    }
+    .travel {
+        float: left;
+        width: 50%;
+    }
+    .maps{
+        float:left;
+        width: 50%;
+    }
+    .photo {
+        float:left;
+        width: 50%;
+    }
+    .calc{
+        float: left;
+        width:50%;
+    }
+    .back,
+    .student{
+display: none;
+    }
+    .nav-footer {
+        float:right;
+    }
+    .name-footer{
+        float:left;
+        font-size: 1em;
+        margin-left: 1em;
+    }
+    .name-footer,
+    .nav-footer{
+        display:inline;
+        margin-top:1em;
+    }
+   li{
+        border:none;
+        background-color: transparent;
+        display: inline-block;
+        margin-top: -1em;
+        margin-left: 3em;
+    }
+ 
+}
+@media (min-width:1024px) {
+    
+   
+ .marketing,
+ .travel{
+     float:left;
+     width:30%;
+ }
+ .search {
+     float:left;
+     width: 40%;
+ }
+ .maps,
+ .calc{
     float:left;
-    width:50%;
-
+    width:30%;    
+ }
+ .photo {
+     float:left;
+     width:40%;
+ }
+   .col {
+       padding:1em;
+   }
+   .main{
+       margin-right: -9em;
+   }
+   
+.name{
+        /* margin-bottom: 1em; */
+        float: left;
+        margin-right: 9em;
+        margin-left: 1em;
+        margin-top: 0;
 }
-.Map {
-    float:left;
-    width:50%;
-}
-.photo {
-    float: left;
-width: 50%;
-
-}
-.calculator {
-float: left;
-width:50%;
+.main-nav li, .main-nav a, .main-nav {
+    display: inline-block;
+    border: none;
+    margin-top: 4px;
+    background: none;
+    /* margin-right: 1em; */
 }
 }
