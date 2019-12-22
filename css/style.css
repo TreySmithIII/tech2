@@ -117,11 +117,6 @@ padding-bottom: 1em;
     display: none;
 }
 @media (min-width:768px) {
-
-    .main {
-        padding-left: 2em;
-    padding-right: 2em;
-    }  
 .main-nav li,
 .main-nav a ,
 .main-nav{
@@ -159,7 +154,7 @@ padding-bottom: 1em;
         width: 50%;
     }
     .maps{
-        float:left;
+        float:right;
         width: 50%;
     }
     .photo {
@@ -199,43 +194,49 @@ display: none;
 @media (min-width:1024px) {
     
    
- .marketing,
- .travel{
-     float:left;
-     width:30%;
- }
- .search {
-     float:left;
-     width: 40%;
- }
- .maps,
- .calc{
-    float:left;
-    width:30%;    
- }
- .photo {
-     float:left;
-     width:40%;
- }
-   .col {
-       padding:1em;
+   .name{
+       float: left;
+       width:21%;
    }
-   .main{
-       margin-right: -9em;
+   .header-p{
+       width: 45%;
+       font-size: 20px;
+       padding-top: 76px;
    }
-   
-.name{
-        /* margin-bottom: 1em; */
-        float: left;
-        margin-right: 9em;
-        margin-left: 1em;
-        margin-top: 0;
+   .main-nav ul {
+       margin-top:25px;
+       padding-right:21px;
+       float: right;
+       
+   }
+.profile-pic{
+    width: 50%;
 }
-.main-nav li, .main-nav a, .main-nav {
-    display: inline-block;
-    border: none;
-    margin-top: 4px;
-    background: none;
-    /* margin-right: 1em; */
+.marketing{
+    float: left;
+    width: 30%;
+}
+.search {
+    float: left;
+    width:40%;
+}
+.travel {
+    float:left;
+    width:30%;
+}
+.maps{
+    float: left;
+    width: 30%;
+}
+.photo{
+    float: left;
+    width:40%;
+}
+.calc {
+    float:left;
+    width:30%;
+
+
+
 }
 }
