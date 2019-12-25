@@ -4,7 +4,7 @@ box-sizing: border-box;
 
 body{
     text-align: center;
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Inria Serif', serif;   
 }
 
 a{
@@ -27,6 +27,15 @@ padding-top: 1em;
 
 strong {
     color: dimgray;
+}
+a:hover{
+    color: green;
+}
+a:link{
+    color: royalblue;
+}
+a:visited{
+    color: firebrick;
 }
 .header-p ,
 .contact p{
