@@ -108,7 +108,7 @@ font-size: 2em;
 .col p {
 font-size: 1.625em;
 line-height: 2;
-font-weight: 300;
+
 padding-bottom: 1em;
 }
 .main-nav a{
@@ -150,30 +150,11 @@ padding-bottom: 1em;
     .main-header{
         padding-bottom: 5em;
     }
-    .marketing {
+    .col{
         float:left;
         width: 50%;
     }
-    .search{
-        float: left;
-       width: 50%;
-    }
-    .travel {
-        float: left;
-        width: 50%;
-    }
-    .maps{
-        float:right;
-        width: 50%;
-    }
-    .photo {
-        float:left;
-        width: 50%;
-    }
-    .calc{
-        float: left;
-        width:50%;
-    }
+    
     .back,
     .student{
 display: none;
@@ -221,31 +202,11 @@ display: none;
 .profile-pic{
     width: 50%;
 }
-.marketing{
-    float: left;
-    width: 30%;
+.col {
+    width: 33%;
 }
-.search {
-    float: left;
-    width:40%;
-}
-.travel {
-    float:left;
-    width:30%;
-}
-.maps{
-    float: left;
-    width: 30%;
-}
-.photo{
-    float: left;
-    width:40%;
-}
-.calc {
-    float:left;
-    width:30%;
 
 
 
 }
-}
+
